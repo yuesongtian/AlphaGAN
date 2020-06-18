@@ -21,7 +21,7 @@ To search with alphaGAN$_{(l)}$,
 ```bash
 CUDA_VISIBLE_DEVICES=0 python search.py --gen Network_gen_Auto --dis Discriminator --gf_dim 256 --df_dim 128 --fix_alphas_epochs -1 --only_update_w_g --gen_normal_opr PRIMITIVES_NORMAL_GEN_wo_skip_none_sep --inner_steps 390 --worst_steps 390 --outter_steps 20 --exp_name search_test  --eval_every 4 --dataset cifar10
 ```
-Currently, alphaGAN supports searching on CIFAR-10 or STL-10.
+Currently, alphaGAN supports searching on CIFAR-10 or STL-10. You just need to replace cifar10 of '--dataset' with stl10. According to our experiments, searching on STL-10 can stabalize the searching process.
 
 ## Re-training
 
