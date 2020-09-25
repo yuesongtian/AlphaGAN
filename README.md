@@ -38,3 +38,6 @@ If you want to re-train the network based on the alphaGAN$_{(l)}$ architecture r
 CUDA_VISIBLE_DEVICES=0 python train_geno_gan.py -gen_bs 128 -dis_bs 64 --dataset stl10 --bottom_width 6 --img_size 48 --max_iter 80000 --gen_model alphaGAN_network --dis_model alphaGAN_network --latent_dim 128 --gf_dim 256 --df_dim 128 --g_spectral_norm False --d_spectral_norm True --g_lr 2e-4 --d_lr 2e-4 --beta1 0.5 --beta2 0.9 --init_type xavier_uniform --n_critic 5 --val_freq 20 --arch_gen alphaGAN_l --gen Network_gen_Auto --dis Discriminator --exp_name re-train_searched_G_onSTL10 --eval_dg
 ```
 
+## Big-Data
+
+I am still tuning alphaGAN on celebA or LSUN. The code is coming soon.
