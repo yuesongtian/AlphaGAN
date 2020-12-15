@@ -11,6 +11,17 @@ To run this code, you need:
 
 Other requirements are in requirements.txt
 
+## Prepare
+First, you need to create logging directory.
+```bash
+cd /root_dir/alphaGAN && mkdir logs
+```
+
+Second, you need to create "fid_stat" directory and download the statistical files of real images.
+```bash
+mkdir fid_stat
+```
+
 ## Searching
 
 To search with alphaGAN$_{(s)}$,
