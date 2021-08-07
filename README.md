@@ -1,4 +1,4 @@
-﻿# alphaGAN
+﻿# alphaGAN (TPAMI-2021)
 
 AlphaGAN is a fully differentable architecture search framework for GAN. We implement alphaGAN referring to the existing public repositories of [DARTS](https://github.com/quark0/darts) and [AutoGAN](https://github.com/TAMU-VITA/AutoGAN).
 
